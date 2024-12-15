@@ -1,0 +1,17 @@
+{
+    "sales": [
+      { "id": 1, "month": "January", "sales": 40 },
+      { "id": 2, "month": "February", "sales": 20 },
+      { "id": 3, "month": "March", "sales": 12 },
+      { "id": 4, "month": "April", "sales": 39 }
+    ],
+    "locations": [
+      { "id": 1, "name": "Москва", "longitude": 37.6173, "latitude": 55.7558 },
+      { "id": 2, "name": "Санкт-Петербург", "longitude": 30.3351, "latitude": 59.9343 }
+    ],
+    "items": [
+      { "id": 1, "name": "Item 1" },
+      { "id": 2, "name": "Item 2" }
+    ]
+  }
+  

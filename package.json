@@ -1,0 +1,30 @@
+{
+  "name": "chartexample",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "mock-api": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "@tanstack/query-core": "^5.59.13",
+    "@tanstack/vue-query": "^5.59.13",
+    "@turf/turf": "^7.1.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.5",
+    "mapbox-gl": "^3.7.0",
+    "turf": "^3.0.14",
+    "vue": "^3.5.10",
+    "vue-chartjs": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  }
+}
